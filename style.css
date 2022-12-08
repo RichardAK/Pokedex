@@ -1,0 +1,31 @@
+*
+{
+    box-sizing: content-box;
+}
+
+body
+{
+    background-color: rgb(196, 5, 5);
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+#simbolo{
+    display: flex;
+    justify-content: flex-end;
+    margin-inline-end: 15%;
+}
+
+#logo
+{
+    width: 600px;
+}
+
+#pokemon-image
+{
+    width: 700px    ;
+    margin-inline-start: 10%;
+}

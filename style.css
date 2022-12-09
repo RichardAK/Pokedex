@@ -6,6 +6,7 @@
 body
 {
     background-color: rgb(196, 5, 5);
+    overflow: hidden;
 }
 
 main{
@@ -16,16 +17,34 @@ main{
 #simbolo{
     display: flex;
     justify-content: flex-end;
-    margin-inline-end: 15%;
+    margin-right: 10%;
 }
 
 #logo
 {
+    max-width: 100%;
     width: 600px;
+}
+
+.pokemon 
+{
+    display: flex; align-items: center; justify-content: space-evenly;  
 }
 
 #pokemon-image
 {
-    width: 700px    ;
-    margin-inline-start: 10%;
+    background-image: url(Background.png);
+    background-size: cover;
+    max-width: 100%;
+    width: 600px;  
+    border: 8px solid rgb(31, 54, 116);
+    border-radius: 10%;
 }
+
+#pokemon-nomecodigoId
+{
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+
+
